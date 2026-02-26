@@ -152,6 +152,25 @@
     </div>
   </div>
 
-  <py-script src="app.py"></py-script>
+
+<py-config>
+{
+  "files": {
+    "./Python/app_controller.py": "app_controller.py",
+    "./Python/setup.py": "setup.py",
+    "./Python/ui_render.py": "ui_render.py",
+    "./Python/dom_utils.py": "dom_utils.py",
+    "./Python/confirm.py": "confirm.py",
+    "./Python/game_flow.py": "game_flow.py",
+    "./Python/ai.py": "ai.py",
+    "./Python/proxies.py": "proxies.py",
+    "./Python/rules.py": "rules.py",
+    "./Python/state.py": "state.py",
+    "./Python/main.py": "main.py"
+  }
+}
+</py-config>
+
+<py-script src="Python/main.py"></py-script>
 </body>
 </html>
